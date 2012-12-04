@@ -17,6 +17,7 @@ development:
   encoding: unicode
   database: sample-app_development
   pool: 5
+  host: /tmp/
   username: rs
   password:
 
@@ -43,6 +44,7 @@ test:
   encoding: unicode
   database: sample-app_test
   pool: 5
+  host: /tmp/
   username: rs
   password:
 
@@ -51,5 +53,6 @@ production:
   encoding: unicode
   database: sample-app_production
   pool: 5
+  host: /tmp/
   username: rs
   password:
